@@ -7,8 +7,72 @@
             "username": "emma-chi",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac6",
+                    "username": "aiden-pa",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+                },
+                "txt": "Perfect way to start the day!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacd",
+                    "username": "ollie-ola",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+                },
+                "txt": "I need to try this place!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacf",
+                    "username": "zoe-zone",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+                },
+                "txt": "Yummy!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacc",
+                    "username": "king-noah",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+                },
+                "txt": "Great shot!"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bacb",
+                "username": "mr.marcus",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bac6",
+                "username": "aiden-pa",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacd",
+                "username": "ollie-ola",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacf",
+                "username": "zoe-zone",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacc",
+                "username": "king-noah",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     },
     {
         "txt": "Just finished a 5K run in Central Park! Personal best time of 22: 30 🏃‍♀️🏅 #fitnessmotivation",
@@ -18,8 +82,64 @@
             "username": "mr.marcus",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac8",
+                    "username": "emma-chi",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+                },
+                "txt": "Amazing job!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac6",
+                    "username": "aiden-pa",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+                },
+                "txt": "You crushed it!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacd",
+                    "username": "ollie-ola",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+                },
+                "txt": "Great time!"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bac8",
+                "username": "emma-chi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bac6",
+                "username": "aiden-pa",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacd",
+                "username": "ollie-ola",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacf",
+                "username": "zoe-zone",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacc",
+                "username": "king-noah",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     },
     {
         "txt": "New haircut, who dis? 💇‍♂️ Thanks @StyleMasterSalon for the fresh look!",
@@ -29,8 +149,80 @@
             "username": "aiden-pa",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac8",
+                    "username": "emma-chi",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+                },
+                "txt": "Nice cut!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacb",
+                    "username": "mr.marcus",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+                },
+                "txt": "Looking sharp!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacd",
+                    "username": "ollie-ola",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+                },
+                "txt": "Love it!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacf",
+                    "username": "zoe-zone",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+                },
+                "txt": "Great look!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacc",
+                    "username": "king-noah",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+                },
+                "txt": "Awesome!"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bac8",
+                "username": "emma-chi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacb",
+                "username": "mr.marcus",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacd",
+                "username": "ollie-ola",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacf",
+                "username": "zoe-zone",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacc",
+                "username": "king-noah",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     },
     {
         "txt": "Meal prep Sunday in full swing! Prepped 5 healthy lunches for the week ahead 🥗🍱 #mealprep",
@@ -40,8 +232,80 @@
             "username": "ollie-ola",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac8",
+                    "username": "emma-chi",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+                },
+                "txt": "Looks healthy!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacb",
+                    "username": "mr.marcus",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+                },
+                "txt": "Nice job!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac6",
+                    "username": "aiden-pa",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+                },
+                "txt": "Inspiring!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacf",
+                    "username": "zoe-zone",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+                },
+                "txt": "Great idea!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacc",
+                    "username": "king-noah",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+                },
+                "txt": "Looks delicious!"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bac8",
+                "username": "emma-chi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacb",
+                "username": "mr.marcus",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bac6",
+                "username": "aiden-pa",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacf",
+                "username": "zoe-zone",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacc",
+                "username": "king-noah",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     },
     {
         "txt": "Beach day with the squad! 🏖️👙 @beachbabe22 @surfdude44 @sandyfeet99",
@@ -51,8 +315,80 @@
             "username": "zoe-zone",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac8",
+                    "username": "emma-chi",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+                },
+                "txt": "Beautiful!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacb",
+                    "username": "mr.marcus",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+                },
+                "txt": "Amazing!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac6",
+                    "username": "aiden-pa",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+                },
+                "txt": "Love the shot!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacd",
+                    "username": "ollie-ola",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+                },
+                "txt": "So vibrant!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacc",
+                    "username": "king-noah",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+                },
+                "txt": "Incredible photo!"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bac8",
+                "username": "emma-chi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacb",
+                "username": "mr.marcus",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bac6",
+                "username": "aiden-pa",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacd",
+                "username": "ollie-ola",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacc",
+                "username": "king-noah",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     },
     {
         "txt": "Just adopted this cutie from Paws Rescue! Meet Luna 🐱❤️ #adoptdontshop",
@@ -62,8 +398,80 @@
             "username": "king-noah",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac8",
+                    "username": "emma-chi",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+                },
+                "txt": "So pretty!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacb",
+                    "username": "mr.marcus",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+                },
+                "txt": "Breathtaking!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac6",
+                    "username": "aiden-pa",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+                },
+                "txt": "Gorgeous colors!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacd",
+                    "username": "ollie-ola",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+                },
+                "txt": "Love this!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacf",
+                    "username": "zoe-zone",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+                },
+                "txt": "What a cute kitten"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bac8",
+                "username": "emma-chi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacb",
+                "username": "mr.marcus",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bac6",
+                "username": "aiden-pa",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacd",
+                "username": "ollie-ola",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacf",
+                "username": "zoe-zone",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     },
     {
         "txt": "Throwback to last summers trip to Paris 🗼 Take me back! #wanderlust",
@@ -73,8 +481,64 @@
             "username": "sofifi",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac8",
+                    "username": "emma-chi",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+                },
+                "txt": "Amazing view"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacb",
+                    "username": "mr.marcus",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+                },
+                "txt": "Fantastic!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bac6",
+                    "username": "aiden-pa",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+                },
+                "txt": "Nice"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bac8",
+                "username": "emma-chi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacb",
+                "username": "mr.marcus",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bac6",
+                "username": "aiden-pa",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacd",
+                "username": "ollie-ola",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacf",
+                "username": "zoe-zone",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     },
     {
         "txt": "New plant baby alert! 🌿 This monstera is going to look amazing in my living room #plantparent",
@@ -84,8 +548,56 @@
             "username": "irish-liam",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/gbw5mwulb4vnm91ztrab"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacf",
+                    "username": "zoe-zone",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+                },
+                "txt": "Great idea!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacc",
+                    "username": "king-noah",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+                },
+                "txt": "Looks delicious!"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bacb",
+                "username": "mr.marcus",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bac6",
+                "username": "aiden-pa",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacd",
+                "username": "ollie-ola",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacf",
+                "username": "zoe-zone",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacc",
+                "username": "king-noah",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     },
     {
         "txt": "First day at my new job! Excited for this new chapter 💼 #careergoals",
@@ -95,8 +607,56 @@
             "username": "avi-sin",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/xuhfetlcwul7pnx3zbyt"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacf",
+                    "username": "zoe-zone",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+                },
+                "txt": "Inspirational!"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacc",
+                    "username": "king-noah",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+                },
+                "txt": "Keep it up!"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bac8",
+                "username": "emma-chi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bac6",
+                "username": "aiden-pa",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacd",
+                "username": "ollie-ola",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacf",
+                "username": "zoe-zone",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacc",
+                "username": "king-noah",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     },
     {
         "txt": "Homemade pizza night with a view 🍕🌃 Sometimes staying in is the best night out!",
@@ -106,7 +666,55 @@
             "username": "ethan-koko",
             "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/eipugywgfc961q1ooqrc"
         },
-        "comments": [],
-        "likedBy": []
+        "comments": [
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacd",
+                    "username": "ollie-ola",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+                },
+                "txt": "Great place"
+            },
+            {
+                "by": {
+                    "_id": "66a7a2e71d6749201cb9bacc",
+                    "username": "king-noah",
+                    "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld"
+                },
+                "txt": "Im jelaous!"
+            }
+        ],
+        "likedBy": [
+            {
+                "_id": "66a7a2e71d6749201cb9bac8",
+                "username": "emma-chi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacb",
+                "username": "mr.marcus",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bac6",
+                "username": "aiden-pa",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacd",
+                "username": "ollie-ola",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bacf",
+                "username": "zoe-zone",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq"
+            },
+            {
+                "_id": "66a7a2e71d6749201cb9bace",
+                "username": "sofifi",
+                "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad"
+            }
+        ]
     }
 ]
