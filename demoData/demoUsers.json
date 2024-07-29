@@ -1,0 +1,124 @@
+[
+    {
+        "username": "jona-menashe",
+        "password": "$2b$10$lw4vONOgnWxtDiyQpziCYumdUT2XelGgWsQnenvVKXM7LhfYz6bwS",
+        "fullname": "Jonathan Menashe",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/givpoujcjtu9wgqmhtbw",
+        "bio": "Tech enthusiast and aspiring chef. Always up for a challenge!",
+        "isAdmin": true,
+        "following": ["aiden-pa", "emma-chi", "sofifi"],
+        "followers": ["aiden-pa", "avi-sin", "emma-chi"],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "aiden-pa",
+        "password": "$2b$10$RcHEA9vbERGMr4s7cM/Br.ThKksk6L4m81BGf6HVEMOlNTbQV1wCe",
+        "fullname": "Aiden Patel",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/dcrpxwu2awzc0nt2gzwm",
+        "bio": "Adventurer at heart, love exploring new places and meeting new people.",
+        "following": ["jona-menashe", "avi-sin", "irish-liam"],
+        "followers": ["jona-menashe", "avi-sin"],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "avi-sin",
+        "password": "$2b$10$QebPyNohW/UTav8PbDGQk.ptYva.pebjeI8HaiD1Kt0g729H2pjde",
+        "fullname": "Avi Sinclair",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/xuhfetlcwul7pnx3zbyt",
+        "bio": "Music lover and graphic designer. Always on the lookout for inspiration.",
+        "following": ["jona-menashe", "aiden-pa", "emma-chi"],
+        "followers": ["jona-menashe", "aiden-pa"],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "emma-chi",
+        "password": "$2b$10$gg1pyjYg0XlxkzLYOYQyKuZ0cdZ9QFuSvGE..N5OSW.A43C4VfqcW",
+        "fullname": "Emma Chen",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/q9trlzdjtgpv0oshvhyh",
+        "bio": "Fitness enthusiast and foodie. Passionate about health and wellness.",
+        "following": ["jona-menashe", "avi-sin", "king-noah"],
+        "followers": ["jona-menashe", "avi-sin"],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "ethan-koko",
+        "password": "$2b$10$72mmfLecDbI8F617pRpONe.GJoM2z1FBHDNvC18sT803T5sqA2QrK",
+        "fullname": "Ethan Kowalski",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/eipugywgfc961q1ooqrc",
+        "bio": "Tech geek with a love for gaming and innovation.",
+        "following": ["ollie-ola", "sofifi", "zoe-zone"],
+        "followers": [],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "irish-liam",
+        "password": "$2b$10$nfUGnQYilIC9uBZ.L4oyK.PHO3WolEv4CD6t28IJlyRZZekoGGRu2",
+        "fullname": "Liam Oconnor",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/gbw5mwulb4vnm91ztrab",
+        "bio": "Sports fan and amateur photographer. Enjoying life's little moments.",
+        "following": ["aiden-pa", "sofifi", "zoe-zone"],
+        "followers": [],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "mr.marcus",
+        "password": "$2b$10$GTP.wOGxPQCduPvo/RVCFOxaCAVgrj7GpvzQLm1wtH/FLyj4Bg2Um",
+        "fullname": "Marcus Johnson",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/msay5jgvw3einny6bfnq",
+        "bio": "Book lover and history buff. Always looking for new reads and stories.",
+        "following": ["king-noah", "ollie-ola", "zoe-zone"],
+        "followers": [],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "king-noah",
+        "password": "$2b$10$m5iH.sdbs.Ph.SF.cxaAEuVpPaPTQSgIa184KYfq1jLW2zUvbKXX6",
+        "fullname": "Noah Williams",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/yyzqwifubapwrmtqhtld",
+        "bio": "Gaming aficionado and tech enthusiast. Always ready for a new challenge.",
+        "following": ["emma-chi", "ollie-ola", "mr.marcus"],
+        "followers": ["emma-chi"],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "ollie-ola",
+        "password": "$2b$10$mASAL/svArye8wu4RplE6.PspNXhil0gq861.HjyCoaz0E2ZotZpu",
+        "fullname": "Olivia Rodriguez",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/btjr2ipbvvoev5sl47jn",
+        "bio": "Creative soul and travel enthusiast. Documenting the world one photo at a time.",
+        "following": ["ethan-koko", "king-noah", "sofifi"],
+        "followers": ["ethan-koko", "mr.marcus"],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "sofifi",
+        "password": "$2b$10$Z8.0htiT.BgyrFTa6PR1t.tI96msFVgG8f5spAxkkV9xlMyN/lzou",
+        "fullname": "Sofia Nguyen",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/lrssicnkgdhgjxnt4vad",
+        "bio": "Design enthusiast and foodie. Enjoying the little things in life.",
+        "following": ["ethan-koko", "irish-liam", "ollie-ola"],
+        "followers": ["jona-menashe", "emma-chi", "ollie-ola"],
+        "likedStories": [],
+        "savedStories": []
+    },
+    {
+        "username": "zoe-zone",
+        "password": "$2b$10$6V8gnLKy/QVXNIni2dZIAeVwHbhqBXf2goocLK/TJbJFJ2MQoyx3a",
+        "fullname": "Zoe Thompson",
+        "imgUrl": "https://res.cloudinary.com/djprda7rj/image/upload/f_auto,q_auto/v1/userPics/ervtfas1xrhbvbw4cqnq",
+        "bio": "Book lover and aspiring writer. Finding inspiration in everyday life.",
+        "following": ["irish-liam", "mr.marcus", "emma-chi"],
+        "followers": ["irish-liam", "mr.marcus"],
+        "likedStories": [],
+        "savedStories": []
+    }
+]

@@ -18,22 +18,19 @@ async function login(username, password) {
 	if (!user) return Promise.reject('Invalid username or password')
 	const match = await bcrypt.compare(password, user.password)
 	if (!match) return Promise.reject('Invalid username or password')
-
 	delete user.password
 	user._id = user._id.toString()
 	return user
 }
 
-async function signup({ username, password, fullname, imgUrl, isAdmin }) {
+async function signup({ username, password, fullname, imgUrl, isAdmin = false }) {
+	if (!imgUrl) imgUrl = 'upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
 	const saltRounds = 10
 	logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
-
 	if (!username || !password || !fullname) return Promise.reject('Missing required signup information')
 	const userExist = await userService.getByUsername(username)
-
 	if (userExist) return Promise.reject('Username already taken')
 	const hash = await bcrypt.hash(password, saltRounds)
-
 	return userService.add({ username, password: hash, fullname, imgUrl, isAdmin })
 }
 

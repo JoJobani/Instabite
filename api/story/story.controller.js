@@ -26,7 +26,14 @@ export async function getStoryById(req, res) {
 export async function addStory(req, res) {
 	const { loggedinUser, body: story } = req
 	try {
-		story.by = loggedinUser
+		const miniUser = {
+			_id: loggedinUser._id,
+			username: loggedinUser.username,
+			imgUrl: loggedinUser.imgUrl
+		}
+		story.by = miniUser
+		story.comments = []
+		story.likedBy = []
 		const addedStory = await storyService.add(story)
 		res.json(addedStory)
 	} catch (err) {
