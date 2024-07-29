@@ -19,7 +19,7 @@ async function query(filterBy = {}) {
 		const criteria = {}
 		const collection = await dbService.getCollection('story')
 		var filteredStories = await collection.find(criteria).toArray()
-		return filteredStories
+		return filteredStories.reverse()
 	} catch (err) {
 		logger.error('cannot find stories', err)
 		throw err

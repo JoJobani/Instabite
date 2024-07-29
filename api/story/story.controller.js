@@ -60,7 +60,8 @@ export async function updateStory(req, res) {
 
 export async function removeStory(req, res) {
 	try {
-		const storyId = req.params._id
+		const storyId = req.params.id
+		console.log(storyId)
 		const removedId = await storyService.remove(storyId)
 		res.send(removedId)
 	} catch (err) {
