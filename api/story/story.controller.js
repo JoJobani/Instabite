@@ -53,8 +53,8 @@ export async function updateStory(req, res) {
 
 export async function removeStory(req, res) {
 	try {
-		const storyId = req.params._id
-		console.log(storyId)
+		console.log(req.params)
+		const storyId = req.params.id
 		const removedId = await storyService.remove(storyId)
 		res.send(removedId)
 	} catch (err) {
@@ -66,7 +66,7 @@ export async function removeStory(req, res) {
 export async function addStoryComment(req, res) {
 	const { loggedinUser } = req
 	try {
-		const storyId = req.params._id
+		const storyId = req.params.id
 		const miniUser = {
 			_id: loggedinUser._id,
 			username: loggedinUser.username,
@@ -86,7 +86,7 @@ export async function addStoryComment(req, res) {
 
 export async function removeStoryComment(req, res) {
 	try {
-		const storyId = req.params._id
+		const storyId = req.params.id
 		const { commentId } = req.params
 		const removedId = await storyService.removeStoryComment(storyId, commentId)
 		res.send(removedId)
