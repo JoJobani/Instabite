@@ -26,6 +26,7 @@ export async function getStoryById(req, res) {
 export async function addStory(req, res) {
 	const { loggedinUser, body: story } = req
 	try {
+		story.createdAt = Date.now()
 		story.by = loggedinUser
 		const addedStory = await storyService.add(story)
 		res.json(addedStory)
@@ -36,12 +37,7 @@ export async function addStory(req, res) {
 }
 
 export async function updateStory(req, res) {
-	const { loggedinUser, body: story } = req
-	// const { _id: userId, isAdmin } = loggedinUser
-	// if (!isAdmin && story.owner._id !== userId) {
-	// 	res.status(403).send('Not your story...')
-	// 	return
-	// }
+	const { body: story } = req
 	try {
 		const updatedStory = await storyService.update(story)
 		res.json(updatedStory)
