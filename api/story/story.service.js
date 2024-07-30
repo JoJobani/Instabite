@@ -14,9 +14,12 @@ export const storyService = {
 	removeStoryComment,
 }
 
-async function query(filterBy = {}) {
+async function query(filterBy) {
 	try {
 		const criteria = {}
+		if (filterBy.identifier && filterBy.field) {
+			criteria[filterBy.field] = { $in: [filterBy.identifier] }
+		}
 		const collection = await dbService.getCollection('story')
 		var filteredStories = await collection.find(criteria).toArray()
 		return filteredStories.reverse()
@@ -73,7 +76,9 @@ async function update(story) {
 		const storyToSave = {
 			txt: story.txt,
 			likedBy: story.likedBy,
-			comments: story.comments
+			comments: story.comments,
+			savedBy: story.savedBy,
+			taggedUsers: story.taggedUsers
 		}
 		await collection.updateOne(criteria, { $set: storyToSave })
 		return story

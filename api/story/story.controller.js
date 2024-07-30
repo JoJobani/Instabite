@@ -3,7 +3,7 @@ import { storyService } from './story.service.js'
 
 export async function getStories(req, res) {
 	try {
-		const { filterBy = {} } = req.query
+		const filterBy = req.query
 		const stories = await storyService.query(filterBy)
 		res.json(stories)
 	} catch (err) {
@@ -37,11 +37,11 @@ export async function addStory(req, res) {
 
 export async function updateStory(req, res) {
 	const { loggedinUser, body: story } = req
-	const { _id: userId, isAdmin } = loggedinUser
-	if (!isAdmin && story.owner._id !== userId) {
-		res.status(403).send('Not your story...')
-		return
-	}
+	// const { _id: userId, isAdmin } = loggedinUser
+	// if (!isAdmin && story.owner._id !== userId) {
+	// 	res.status(403).send('Not your story...')
+	// 	return
+	// }
 	try {
 		const updatedStory = await storyService.update(story)
 		res.json(updatedStory)
@@ -53,7 +53,7 @@ export async function updateStory(req, res) {
 
 export async function removeStory(req, res) {
 	try {
-		const storyId = req.params.id
+		const storyId = req.params._id
 		console.log(storyId)
 		const removedId = await storyService.remove(storyId)
 		res.send(removedId)
