@@ -15,5 +15,5 @@ storyRoutes.post('/', requireAuth, addStory)
 storyRoutes.put('/:id', requireAuth, updateStory)
 storyRoutes.delete('/:id', requireAuth, removeStory)
 
-storyRoutes.post('/:id/msg', requireAuth, addStoryComment)
-storyRoutes.delete('/:id/msg/:msgId', requireAuth, removeStoryComment)
+storyRoutes.post('/:id/comment', requireAuth, addStoryComment)
+storyRoutes.delete('/:id/msg/:comment', requireAuth, removeStoryComment)

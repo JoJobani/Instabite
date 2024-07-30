@@ -107,8 +107,8 @@ async function add(user) {
             bio: '',
             following: [],
             followers: [],
-            likedStories: [],
-            savedStories: []
+            savedStories: [],
+            taggedStories: []
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)
