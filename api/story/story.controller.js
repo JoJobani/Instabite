@@ -24,11 +24,10 @@ export async function getStoryById(req, res) {
 }
 
 export async function addStory(req, res) {
-	// const { loggedinUser, body: story } = req
-	const {body: story } = req
+	const { loggedinUser, body: story } = req
 	try {
-		// story.createdAt = Date.now()
-		// story.by = loggedinUser
+		story.createdAt = Date.now()
+		story.by = loggedinUser
 		const addedStory = await storyService.add(story)
 		res.json(addedStory)
 	} catch (err) {
@@ -50,7 +49,6 @@ export async function updateStory(req, res) {
 
 export async function removeStory(req, res) {
 	try {
-		console.log(req.params)
 		const storyId = req.params.id
 		const removedId = await storyService.remove(storyId)
 		res.send(removedId)
