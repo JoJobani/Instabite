@@ -24,10 +24,11 @@ export async function getStoryById(req, res) {
 }
 
 export async function addStory(req, res) {
-	const { loggedinUser, body: story } = req
+	// const { loggedinUser, body: story } = req
+	const {body: story } = req
 	try {
-		story.createdAt = Date.now()
-		story.by = loggedinUser
+		// story.createdAt = Date.now()
+		// story.by = loggedinUser
 		const addedStory = await storyService.add(story)
 		res.json(addedStory)
 	} catch (err) {
