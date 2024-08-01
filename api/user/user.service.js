@@ -2,9 +2,6 @@ import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
 import { ObjectId } from 'mongodb'
 
-import bcrypt from 'bcrypt'
-
-
 export const userService = {
     add,
     getById,
@@ -14,25 +11,13 @@ export const userService = {
     getByUsername,
 }
 
-// passMixer()
-async function passMixer() {
-    const collection = await dbService.getCollection('user')
-    const users = await query()
-    const saltRounds = 10
-    users.forEach(async (user) => {
-        user.password = await bcrypt.hash('1234', saltRounds)
-        await collection.updateOne({ _id: user._id }, { $set: user })
-    })
-}
-
-
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
     try {
         const collection = await dbService.getCollection('user')
         var users = await collection.find(criteria).toArray()
         users = users.map(user => {
-            // delete user.password
+            delete user.password
             return user
         })
         return users

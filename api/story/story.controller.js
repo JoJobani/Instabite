@@ -57,36 +57,3 @@ export async function removeStory(req, res) {
 		res.status(400).send({ err: 'Failed to remove story' })
 	}
 }
-
-export async function addStoryComment(req, res) {
-	const { loggedinUser } = req
-	try {
-		const storyId = req.params.id
-		const miniUser = {
-			_id: loggedinUser._id,
-			username: loggedinUser.username,
-			imgUrl: loggedinUser.imgUrl
-		}
-		const comment = {
-			txt: req.body.txt,
-			by: miniUser,
-		}
-		const savedComment = await storyService.addStoryComment(storyId, comment)
-		res.json(savedComment)
-	} catch (err) {
-		logger.error('Failed to update story', err)
-		res.status(400).send({ err: 'Failed to update story' })
-	}
-}
-
-export async function removeStoryComment(req, res) {
-	try {
-		const storyId = req.params.id
-		const { commentId } = req.params
-		const removedId = await storyService.removeStoryComment(storyId, commentId)
-		res.send(removedId)
-	} catch (err) {
-		logger.error('Failed to remove story comment', err)
-		res.status(400).send({ err: 'Failed to remove story comment' })
-	}
-}

@@ -2,7 +2,7 @@ import express from 'express'
 
 import { requireAuth } from '../../middlewares/requireAuth.middleware.js'
 
-import { getStories, getStoryById, addStory, updateStory, removeStory, addStoryComment, removeStoryComment } from './story.controller.js'
+import { getStories, getStoryById, addStory, updateStory, removeStory } from './story.controller.js'
 
 export const storyRoutes = express.Router()
 
@@ -14,6 +14,3 @@ storyRoutes.get('/:id', getStoryById)
 storyRoutes.post('/', requireAuth, addStory)
 storyRoutes.put('/:id', requireAuth, updateStory)
 storyRoutes.delete('/:id', requireAuth, removeStory)
-
-storyRoutes.post('/:id/comment', requireAuth, addStoryComment)
-storyRoutes.delete('/:id/msg/:comment', requireAuth, removeStoryComment)

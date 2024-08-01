@@ -1,7 +1,6 @@
 import { ObjectId } from 'mongodb'
 import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
-import { makeId } from '../../services/util.service.js'
 import { asyncLocalStorage } from '../../services/als.service.js'
 
 export const storyService = {
@@ -9,9 +8,7 @@ export const storyService = {
 	query,
 	getById,
 	add,
-	update,
-	addStoryComment,
-	removeStoryComment,
+	update
 }
 
 async function query(filterBy) {
@@ -84,31 +81,6 @@ async function update(story) {
 		return story
 	} catch (err) {
 		logger.error(`cannot update story ${story._id}`, err)
-		throw err
-	}
-}
-
-async function addStoryComment(storyId, comment) {
-	try {
-		const criteria = { _id: ObjectId.createFromHexString(storyId) }
-		comment.id = makeId()
-		const collection = await dbService.getCollection('story')
-		await collection.updateOne(criteria, { $push: { comments: comment } })
-		return comment
-	} catch (err) {
-		logger.error(`cannot add story comment ${storyId}`, err)
-		throw err
-	}
-}
-
-async function removeStoryComment(storyId, commentId) {
-	try {
-		const criteria = { _id: ObjectId.createFromHexString(storyId) }
-		const collection = await dbService.getCollection('story')
-		await collection.updateOne(criteria, { $pull: { comments: { id: commentId } } })
-		return commentId
-	} catch (err) {
-		logger.error(`cannot add story comment ${storyId}`, err)
 		throw err
 	}
 }
