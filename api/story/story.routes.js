@@ -6,9 +6,6 @@ import { getStories, getStoryById, addStory, updateStory, removeStory } from './
 
 export const storyRoutes = express.Router()
 
-// We can add a middleware for the entire router:
-// router.use(requireAuth)
-
 storyRoutes.get('/', getStories)
 storyRoutes.get('/:id', getStoryById)
 storyRoutes.post('/', requireAuth, addStory)
