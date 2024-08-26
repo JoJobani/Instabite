@@ -21,3 +21,7 @@ Check out the project at the following links:
 🔗 The code: https://lnkd.in/eWxzZ4mq
 
 ![1724325784856](https://github.com/user-attachments/assets/bf6b91a5-03dc-4bbc-a353-fde22a3ae41a)
+
+To be implemented:
+
+edit post, post ownership, comment likes, emojis, bugfixing
