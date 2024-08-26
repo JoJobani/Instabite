@@ -1,4 +1,4 @@
-#Instabite
+# Instabite
 
 An Instagram lookalike with a focus on food, built from the ground up for the Coding Academy Israel Full Stack development course.
 
